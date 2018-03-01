@@ -1,0 +1,918 @@
+/* Small Devices, Tablets */
+
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /*----------displaynone----------------*/
+    .car {
+        display: block;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .thoughts {
+        display: block;
+    }
+    .intromobile {
+        display: none;
+    }
+    .mobilenav {
+        display: none;
+    }
+    .desktopnav {
+        display: block;
+    }
+    
+    .flipcard{
+        display: none;
+    }
+   .crowdcrewthoughts h1{
+        display: none;
+    }
+    .thoughtscontent{
+        display: none;
+    }
+    /*----------displaynone----------------*/
+    /*-----------header------------------*/
+    .logo {
+        margin: auto;
+        padding: 30px;
+        display: block;
+    }
+    .desktopnav ul {
+        padding: 10px 0;
+        list-style-type: none;
+        margin: 0;
+    }
+    .desktopnav {
+        text-align: center;
+        background-color: black;
+        margin-bottom: 30px;
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+        padding: 10px;
+    }
+    .desktopnav li {
+        display: inline;
+        border-left: 2px solid #e7242e;
+        padding: 0 25px;
+        text-transform: uppercase;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .noline {
+        border-left: none!important;
+    }
+    a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 17px;
+        padding: 8px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .desktopnav .join {
+        background-color: #e7242e;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        border-radius: 16px;
+    }
+    .join a {
+        text-decoration: underline;
+    }
+    .join a:hover {
+        color: #000;
+    }
+    .introdesk {
+        display: block;
+        text-align: center;
+    }
+    .introdesk h1 {
+        font-size: 31px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    /*-----------dropdownnav------------------*/
+    .dropbtn {
+        color: white;
+        background-color: none;
+        font-size: 16px;
+        border: none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #000;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        color: #e7242e;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        color: #e7242e;
+    }
+    /*-----------dropdownnav------------------*/
+    /*-----------header------------------*/
+   
+    .admobile {
+        display: none;
+    }
+    .adesktop {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 177px;
+        background-color: #f5f5f5;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        clear: both;
+    }
+    .adesktop2 {
+        display: block;
+        text-align: center;
+        background-color: #f5f5f5;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .adesktop2 h1 {
+        margin-top: 55px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: #5C5C5C;
+    }
+    .adesktop img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /*-----------ad------------------*/
+    /*-----------article------------------*/
+   
+    .artintro {
+        background-color: #fff;
+    }
+    .artintro h1 {
+        color: #000;
+    }
+    .artintro h2 {
+        color: #000;
+    }
+    .artintro i {
+        color: #000;
+        padding: 13px;
+    }
+    .artimage img {
+       
+    }
+    .article p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 19px;
+        color: #333333;
+        line-height: 2;
+    }
+    /*-----------article------------------*/
+   
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) and (max-width: 1235px) {
+    /*----------displaynone----------------*/
+    .car {
+        display: none;
+    }
+    .thoughts {
+        display: none;
+    }
+    .intromobile {
+        display: none;
+    }
+    .mobilenav {
+        display: none;
+    }
+    .desktopnav {
+        display: block;
+    }
+     .flipcard{
+        display: block;
+    }
+    /*----------displaynone----------------*/
+    /*-----------header------------------*/
+    .logo {
+        margin: auto;
+        padding: 30px;
+        display: block;
+    }
+    .desktopnav ul {
+        padding: 10px 0;
+        list-style-type: none;
+        margin: 0;
+    }
+    .desktopnav {
+        text-align: center;
+        background-color: black;
+        margin-bottom: 30px;
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+        padding: 10px;
+    }
+    .desktopnav li {
+        display: inline;
+        border-left: 2px solid #e7242e;
+        padding: 0 25px;
+        text-transform: uppercase;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .noline {
+        border-left: none!important;
+    }
+    a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 17px;
+        padding: 8px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .desktopnav .join {
+        background-color: #e7242e;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        border-radius: 16px;
+    }
+    .join a {
+        text-decoration: underline;
+    }
+    .join a:hover {
+        color: #000;
+    }
+    .introdesk {
+        display: block;
+        text-align: center;
+    }
+    .introdesk h1 {
+        font-size: 31px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    /*-----------dropdownnav------------------*/
+    .dropbtn {
+        color: white;
+        background-color: none;
+        font-size: 16px;
+        border: none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #000;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        color: #e7242e;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        color: #e7242e;
+    }
+    /*-----------dropdownnav------------------*/
+    /*-----------header------------------*/
+    /*-----------flipcards------------------*/
+    .flipcard{
+        padding-top: 20px;
+    }
+    /* entire container, keeps perspective */
+    .flip-container {
+        perspective: 1000px;
+    }
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper,
+    .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+    .flip-container,
+    .front,
+    .back {
+        width: 180px;
+        height: 180px;
+    }
+    /* flip speed goes here */
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    /* hide back of pane during swap */
+    .front,
+    .back {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    /* front pane, placed above back */
+    .front {
+        z-index: 2;
+        /* for firefox 31 */
+        transform: rotateY(0deg);
+        width: 180px;
+        height: 180px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 0px;
+        border: solid;
+        border-width: 0.02px;
+        border-color: #F5f5f5;
+    }
+    .front img {
+        border: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #E7242E;
+        width: 90px;
+    }
+    .front h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .front h3 {
+        font-size: 12px;
+        text-align: center;
+        margin-top: -5px;
+    }
+    /* back, initially hidden pane */
+    .back {
+        transform: rotateY(180deg);
+        width: 180px;
+        height: 180px;
+        background-color: #E7242E;
+        font-size: 12px;
+    }
+    .back {
+        color: #fff;
+    }
+    .back .blockquote:before {
+        color: #fff;
+        content: open-quote;
+        font-size: 2em;
+        line-height: 0.1em;
+        vertical-align: 0.em;
+        font-family: 'Coustard', serif;
+        font-weight: 400;
+    }
+    .back .blockquote:after {
+        color: #fff;
+        position: relative;
+        left: 5px;
+        content: close-quote;
+        font-size: 2em;
+        line-height: 0.1em;
+        /*vertical-align: 1em;*/
+        font-family: 'Coustard', serif;
+        font-weight: 400;
+    }
+    .flipcards li {
+        list-style: none;
+        display: inline;
+    }
+    /*-----------flipcards------------------*/
+    /*-----------ad------------------*/
+    .admobile {
+        display: none;
+    }
+    .adesktop {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 177px;
+        background-color: #f5f5f5;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        clear: both;
+    }
+    .adesktop2 {
+        display: block;
+        text-align: center;
+        background-color: #f5f5f5;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .adesktop2 h1 {
+        margin-top: 55px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: #5C5C5C;
+    }
+    .adesktop img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /*-----------ad------------------*/
+    /*-----------article------------------*/
+    .articlesection {
+        
+        margin: auto;
+    }
+    .artintro {
+    
+        background-color: #fff;
+    }
+    .artintro h1 {
+        color: #000;
+    }
+    .artintro h2 {
+        color: #000;
+    }
+    .artintro i {
+        color: #000;
+        padding: 13px;
+    }
+    .artimage img {
+        
+    }
+    .article p {
+
+        margin: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 19px;
+        color: #333333;
+        line-height: 2;
+    }
+    /*-----------article------------------*/
+    /*-----------crowdcrewthoughts------------------*/
+    .crowdcrewthoughts {
+        display: block;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .crowdcrewthoughts h1 {
+        font-weight: 400;
+    
+        font-size: 30px;
+    }
+    .thoughtscontent {
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+    .thoughtscontent h3 {
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .thoughtscontent p {
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .blockquote:after {
+        content: close-quote;
+        position: relative;
+        left: 100px;
+        vertical-align: -0.8em;
+    }
+    .blockquote:before {
+        content: open-quote;
+    }
+    .blockquote {
+        padding-top: 20px;
+    }
+    .thoughtscontent h3 {
+        margin-top: -50px;
+    }
+    .quote {
+        padding-top: 80px;
+    }
+    /*-----------crowdcrewthoughts------------------*/
+    /*-----------footer------------------*/
+    .foot {
+        clear: both;
+    }
+    /*-----------footer------------------*/
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1235px) and (max-width: 2000px) {
+    /*----------displaynone----------------*/
+    .car {
+        display: none;
+    }
+    .thoughts {
+        display: none;
+    }
+    .intromobile {
+        display: none;
+    }
+    .mobilenav {
+        display: none;
+    }
+    .desktopnav {
+        display: block;
+    }
+    .flipcard{
+        display: block;
+    }
+    /*----------displaynone----------------*/
+    /*-----------header------------------*/
+    .logo {
+        margin: auto;
+        padding: 30px;
+        display: block;
+    }
+    .desktopnav ul {
+        padding: 10px 0;
+        list-style-type: none;
+        margin: 0;
+    }
+    .desktopnav {
+        text-align: center;
+        background-color: black;
+        margin-bottom: 30px;
+        width: 100vw;
+        position: relative;
+        margin-left: -50vw;
+        left: 50%;
+        padding: 10px;
+    }
+    .desktopnav li {
+        display: inline;
+        border-left: 2px solid #e7242e;
+        padding: 0 25px;
+        text-transform: uppercase;
+        font-size: 17px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .noline {
+        border-left: none!important;
+    }
+    a {
+        color: white;
+        text-transform: uppercase;
+        font-size: 17px;
+        padding: 8px;
+        text-align: center;
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+    }
+    .desktopnav .join {
+        background-color: #e7242e;
+        padding-right: 20px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        border-radius: 16px;
+    }
+    .join a {
+        text-decoration: underline;
+    }
+    .join a:hover {
+        color: #000;
+    }
+    .introdesk {
+        display: block;
+        text-align: center;
+    }
+    .introdesk h1 {
+        font-size: 31px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    /*-----------dropdownnav------------------*/
+    .dropbtn {
+        color: white;
+        background-color: none;
+        font-size: 16px;
+        border: none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #000;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .dropdown-content a:hover {
+        color: #e7242e;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown:hover .dropbtn {
+        color: #e7242e;
+    }
+    /*-----------dropdownnav------------------*/
+    /*-----------header------------------*/
+    /*-----------flipcards------------------*/
+    .flipcards {
+        display: inline;
+    }
+    .flip1 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .flip2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        
+    }
+    .flip3 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .flip4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .flip5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* entire container, keeps perspective */
+    .flip-container {
+        perspective: 1000px;
+    }
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper,
+    .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+    .flip-container,
+    .front,
+    .back {
+        width: 230px;
+        height: 230px;
+    }
+    /* flip speed goes here */
+    .flipper {
+        transition: 0.6s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    /* hide back of pane during swap */
+    .front,
+    .back {
+        backface-visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    /* front pane, placed above back */
+    .front {
+        z-index: 2;
+        /* for firefox 31 */
+        transform: rotateY(0deg);
+        width: 230px;
+        height: 230px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        border-radius: 0px;
+        border: solid;
+        border-width: 0.02px;
+        border-color: #F5f5f5;
+    }
+    .front img {
+        border: none;
+        display: block;
+        margin: 0 auto;
+        margin-top: 35px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #E7242E;
+        width: 100px;
+    }
+    .front h1 {
+        font-size: 18px;
+        text-align: center;
+        
+    }
+    .front h3 {
+        font-size: 12px;
+        text-align: center;
+        margin-top: -3px;
+    }
+    /* back, initially hidden pane */
+    .back {
+        transform: rotateY(180deg);
+        width: 230px;
+        height: 230px;
+        background-color: #E7242E;
+    }
+    .back {
+        color: #fff;
+    }
+    .back .blockquote:before {
+        color: #fff;
+        content: open-quote;
+        font-size: 2em;
+        line-height: 0.1em;
+        vertical-align: 0.em;
+        font-family: 'Coustard', serif;
+        font-weight: 400;
+    }
+    .back .blockquote:after {
+        color: #fff;
+        position: relative;
+        left: 5px;
+        content: close-quote;
+        font-size: 2em;
+        line-height: 0.1em;
+        /*vertical-align: 1em;*/
+        font-family: 'Coustard', serif;
+        font-weight: 400;
+    }
+    .back .blockquote {
+        padding-top: 35px;
+    }
+    .flipcards li {
+        list-style: none;
+        display: inline;
+    }
+    /*-----------flipcards------------------*/
+    /*-----------ad------------------*/
+    .admobile {
+        display: none;
+    }
+    .adesktop {
+        display: block;
+        text-align: center;
+        width: 100%;
+        height: 177px;
+        background-color: #f5f5f5;
+        margin-top: 40px;
+        margin-bottom: 70px;
+        clear: both;
+    }
+    .adesktop2 {
+        display: block;
+        text-align: center;
+        background-color: #f5f5f5;
+        margin-top: 40px;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    .adesktop2 h1 {
+        margin-top: 55px;
+        text-align: center;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: #5C5C5C;
+    }
+    .adesktop img {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /*-----------ad------------------*/
+    /*-----------article------------------*/
+    .articlesection {}
+    .artintro {
+        background-color: #fff;
+    }
+    .artintro h1 {
+        color: #000;
+    }
+    .artintro h2 {
+        color: #000;
+    }
+    .artintro i {
+        color: #000;
+        padding: 13px;
+    }
+    .artimage img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .article p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+        font-size: 19px;
+        color: #333333;
+        line-height: 2;
+    }
+    /*-----------article------------------*/
+    /*-----------crowdcrewthoughts------------------*/
+    .crowdcrewthoughts {
+        display: block;
+    }
+    .crowdcrewthoughts h1 {
+        font-weight: 400;
+        margin-top: 100px;
+        padding-left: 30px;
+        text-align: center;
+    }
+    .thoughtscontent {
+        margin-right: 30px;
+        margin-top: 50px;
+    }
+    .thoughtscontent h3 {
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+    }
+    .thoughtscontent p {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+    }
+    .blockquote:after {
+        content: close-quote;
+        position: relative;
+        left: 100px;
+        vertical-align: -0.8em;
+    }
+    .blockquote:before {
+        content: open-quote;
+    }
+    .blockquote {
+        padding-top: 20px;
+    }
+    .thoughtscontent h3 {
+        margin-top: -50px;
+    }
+    .quote {
+        padding-top: 80px;
+    }
+    /*-----------crowdcrewthoughts------------------*/
+   
+}
+
+@media (min-width: 768px) {
+    div.col-sm-7.five-three {
+        width: 60% !important;
+    }
+    div.col-sm-5.five-two {
+        width: 40% !important;
+    }
+}
